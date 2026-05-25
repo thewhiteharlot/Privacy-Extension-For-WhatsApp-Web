@@ -63,7 +63,7 @@
         "message": "Permite desativar o atraso antes de revelar um item ao passar o mouse."
     },
     "toggleUnblurActive": {
-        "message": "Desfocar tudo ao passar o mouse sobre o WhatsApp Web-App"
+        "message": "Desfocar tudo ao passar o mouse sobre o WhatsApp Web."
     },
     "toggleUnblurActiveDescription": {
         "message": "Desfoca tudo quando você passa o mouse sobre o aplicativo do WhatsApp Web."
@@ -99,13 +99,13 @@
         "message": "Defina a quantidade de desfoque para a miniatura das fotos de perfil (em pixels)."
     },
     "ppBlurInputLabel": {
-        "message": "Desfoque para fotos de pefil"
+        "message": "Desfoque para fotos de perfil"
     },
     "ppBlurInputDescription": {
         "message": "Defina a quantidade de desfoque para fotos de perfil de tamanho normal (em pixels)."
     },
     "ppLgBlurInputLabel": {
-        "message": "Desfoque para fotos de pefil ampliadas"
+        "message": "Desfoque para fotos de perfil ampliadas"
     },
     "ppLgBlurInputDescription": {
         "message": "Defina a quantidade de desfoque para fotos de perfil quando ampliadas (em pixels)."

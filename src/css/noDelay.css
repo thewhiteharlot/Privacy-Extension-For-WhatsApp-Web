@@ -4,6 +4,7 @@
 
 /* former wa version (v2.2412.xx) */
 /* mediaGallery */
+[data-testid="media-canvas-img"]:hover,
 .tukmaf4q:hover /*media preview in gallery*/,
 ._1Pr6q:hover /*media preview in send media*/,
 
@@ -28,9 +29,13 @@
 ._1BOF7 ._1sykI:hover /*blue info bar*/,
 
 /* messagesPreview */
+[data-testid="cell-frame-secondary"]:hover /*message preview global*/,
 .vQ0w7:hover /*message preview*/,
 
 /* name */
+[data-testid="cell-frame-title"]:hover,
+[data-testid*="contact-info-subtitle"]:hover /* contact name subtitle in details panel hover */,
+[data-testid="chat-info-drawer"] [data-testid="selectable-text"]:hover /* phone number in details panel hover */,
 div:not([role]) > div:not([role]) > ._8nE1Y ._21S-L:hover /*user/group name in search message*/,
 div[role="row"] > div > ._8nE1Y ._21S-L:hover /*user/group name in message list*/,
 div[role="button"] > div > ._8nE1Y ._21S-L:hover /*user/group name in non message list*/,
@@ -46,6 +51,9 @@ div[role="button"] > div > ._8nE1Y ._21S-L:hover /*user/group name in non messag
 .djhxrpsl:hover /* name in multi contact attachment */,
 
 /* profilePic */
+[data-testid="cell-frame-container"] img:not(.emoji):hover,
+[data-testid="chat-info-drawer"] img:not(.emoji):hover,
+[data-testid="conversation-header"] [role="button"] img:not(.emoji):hover,
 [role="row"] > div > ._1AHcd ._13jwn:hover /*profile pic message list*/,
 [role="button"] > div > ._1AHcd ._13jwn:hover /*profile pic non message list*/,
 ._2pr2H:hover /*message view profile pic*/,
@@ -59,6 +67,7 @@ div[role="button"] > div > ._8nE1Y ._21S-L:hover /*user/group name in non messag
 .njub1g37 .kk3akd72.claouzo6:hover /*Starred message profile pic*/,
 
 /* textInput */
+[data-testid="conversation-compose-box-input"]:hover /* main message input field hover */,
 ._3Uu1_:hover /*textarea*/,
 
 /* updated wa version (v2.3000.xx) */
@@ -139,7 +148,7 @@ div.x1okw0bk.x1w0mnb:hover /* user profile pic in starred message list */,
 div._ak1l:hover /* message text input */,
 div._ak1r:hover /* message text input */
 {
-  transition-delay: 0.04s !important;
+  transition-delay: 0.0s !important;
   -webkit-transition-duration: 0s !important;
   -moz-transition-duration: 0s !important;
   -o-transition-duration: 0s !important;

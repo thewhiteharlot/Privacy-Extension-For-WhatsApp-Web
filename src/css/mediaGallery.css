@@ -2,6 +2,8 @@
 /* Copyright (c) 2024 Lukas Lenhardt - lukaslen.com             */
 /* Released under the MIT license, see LICENSE file for details */
 
+[data-testid="media-canvas-img"] /* gallery media canvas thumbnails */,
+
 /* former wa version (v2.2412.xx) */
 .tukmaf4q /*media preview in gallery*/,
 ._1Pr6q /*media preview in send media*/,
@@ -15,6 +17,8 @@ div.x4t2iug /* media thumb in media gallery panel */
   transition-delay: 0s;
 }
 
+[data-testid="media-canvas-img"]:hover /* gallery media canvas thumbnails hover */,
+
 /* former wa version (v2.2412.xx) */
 .tukmaf4q:hover /*media preview in gallery*/,
 ._1Pr6q:hover /*media preview in send media*/,
@@ -25,7 +29,8 @@ div.x1conndi:hover /* media thumb in overlay view and details panel */,
 div.x4t2iug:hover /* media thumb in media gallery panel */
 {
   filter: blur(0) grayscale(0);
-  transition-delay: 0.3s;
+  transition-delay: 0s;
+  transition: filter 0.2s ease-in-out;
 }
 
 /* updated wa version (v2.3000.xx) */
